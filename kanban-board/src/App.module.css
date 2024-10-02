@@ -1,0 +1,107 @@
+.head {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    
+}
+
+.optionBtn {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(212, 212, 212);
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+}
+
+.optionBtnCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.option {
+    background-color: white;
+    outline: none;
+    border: 0px;
+    box-shadow: 0px 0px 5px rgb(207, 207, 207);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.opt {
+    display: flex;
+    gap: 50px;
+}
+
+.opt > div {
+    color: rgb(100, 100, 100);
+    flex: auto;
+}
+
+.openBox {
+    background-color: rgb(236, 236, 243);
+    position: absolute;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 100%;
+    left: 0px;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px rgb(212, 212, 212);
+}
+
+.closeBox {
+    display: none;
+}
+
+.columns {
+    display: grid;
+    flex: auto;
+    flex-direction: column;
+    grid-template-columns: repeat(5, 400px);
+    gap: 20px;
+    padding: 0px 20px;
+    overflow: scroll;
+}
+
+.columns > div {
+    padding: 30px 20px;
+}
+
+.columnHead {
+    display: flex;
+    gap: 20px;
+    height: 30px;
+    justify-content: left;
+    align-items: center;
+}
+
+.columnHead > img {
+    border-radius: 50%;
+}
+
+.subopts {
+    display: flex;
+    flex: auto;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
